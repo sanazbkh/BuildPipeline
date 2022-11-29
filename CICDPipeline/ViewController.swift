@@ -12,6 +12,8 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // test Jenkins
+        self.view.backgroundColor = .gray
         configButton()
         setupButton()
     }
